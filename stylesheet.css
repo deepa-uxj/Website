@@ -288,10 +288,44 @@
         align-items: center;
     }
 
-    .cta{ h1 {
-        font-size: 24px;
+    .cta{ 
+        h1 {
+            font-size: 24px;
+        }
     }
+
     h4{
         font-size: 24px;
     }
 }
+
+.nav-menu {
+    position: relative;
+
+    .menu {
+        border-radius: 5px;
+        width: 200px;
+        background-color: white;
+        position: absolute;
+        color: black;
+        display: none;
+
+        .menu-links {
+
+
+            list-style: none;
+
+            .menu-links-link {
+                a {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .menu-visible {
+        display: block;
+    }
+
+}
+
